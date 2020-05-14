@@ -9,12 +9,12 @@
  * It can be left blank if not needed.
  */
 
-import PocReact from './direflow-components/poc-react';
+import AnkaComponent from './direflow-components/anka-component';
 
-PocReact.then((element) => {
+AnkaComponent.then((element) => {
 
   /**
    * Access DOM node when it's mounted
    */
-  console.log('poc-react is mounted on the DOM', element);
+  console.log('anka-component is mounted on the DOM', element);
 });

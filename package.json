@@ -33,7 +33,13 @@
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1",
     "direflow-component": "3.4.13",
-    "direflow-scripts": "3.4.13"
+    "direflow-scripts": "3.4.13",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "redux": "^4.0.5",
+    "react-html-parser": "^2.0.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "eslint-plugin-node": "^11.0.0",
