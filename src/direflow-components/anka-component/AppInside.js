@@ -33,7 +33,7 @@ class AppInside extends React.Component {
     return (
       <div className="app">
         {!this.props.config.isLoaded ? (<div>Loading...</div>) :
-          <div className="App">
+          <div className="App" style={{'border' : "10px solid red"}}>
             <CallApi/>
 
             {!this.props.routes.isLoaded ? "loading..." :

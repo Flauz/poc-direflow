@@ -15,5 +15,14 @@ export default DireflowComponent.create({
         },
       },
     },
+    {
+      name: 'external-loader',
+      options: {
+        paths: [
+          'https://club-sandbox-preprod.leoo-factory.io/wp-sites/themes/wordpress-leoo-base-theme/css/leoocore.min.css?ver=1.0.0.1585040405',
+          'https://club-sandbox-preprod.leoo-factory.io/wp-sites/themes/wordpress-leoo-club-sandbox/css/leooproject.min.css?ver=1.0.0.1585040365'
+        ],
+      },
+    },
   ],
 });
