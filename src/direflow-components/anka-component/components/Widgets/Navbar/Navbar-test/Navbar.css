@@ -9,12 +9,12 @@ nav{
 }
 
 
-.nav{
+ul{
     /* display: flex; */
     justify-content: space-around;
 }
 
-.navLi{
+li{
     margin: 10px;
     font-family: 'Roboto';
     font-size: 1.5em;

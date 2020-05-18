@@ -3,19 +3,16 @@ const initialState = {
     isLoaded: false
 }
 
-
 function PagesReducer(state = initialState, action) {
-    let nextState
     switch (action.type) {
         case 'PAGES_LOADED': 
-            state = action.value
-            nextState = state
-            console.log('PAGES REDUCER', state)
-            return nextState || state
+            return {
+                ...state,
+                pages: action.pages,
+                isLoaded: true
+            }
         default: return state
-        
     }
-    
 }
 
 export default PagesReducer
