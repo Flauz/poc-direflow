@@ -6,6 +6,8 @@ import store from './Store/store'
 import { Provider } from 'react-redux'
 import { BrowserRouter } from 'react-router-dom'
 import { Styled } from 'direflow-component';
+// import style2 from './css/leocore.min.css'
+// import style3 from './css/leoproject.min.css'
 
 var routes = null
 
